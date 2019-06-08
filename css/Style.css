@@ -1,0 +1,288 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: gotham;
+}
+
+
+header{
+    width: 80%;
+    height: 600px;
+    background-image: url(../image/cover-01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+
+
+
+
+#logo img{
+    width: 400;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+  
+    
+}
+
+.form{
+    width: 400;
+    height: 450px;
+    margin: 30;
+    background: #CE2224;
+    opacity: 0.9; 
+    float: left;
+}
+
+.form h1{
+    font-size:30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.form input{
+    width: 350px;
+    height: 40px;
+    display: block;
+    margin: 10px auto;
+    padding-left: 10px;
+    
+    
+}
+
+.form button{
+    width: 350px;
+    display: block;
+    margin: auto;
+    height: 40px;
+    font-weight: bold; 
+    background: #000D13;
+    font-size: 20px;
+    color:white;
+    cursor: pointer;
+}
+
+.form button:hover{
+    background: #E9C32A;
+    color: black;
+    font-weight: bold;
+}
+
+#words{
+    
+    
+    font-size: 25px;
+    color: green;
+    font-weight: bold;
+    float: left;
+
+    
+} 
+
+
+#sec1{
+    width: 80%;
+    height: 250px;
+    background: #CE2224;
+    margin: auto;
+    
+}
+
+#sec1 h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+    
+}
+
+#sec1 h3{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+
+#sec1 button{
+    width: 200px;
+    display: block;
+    margin: 5 auto;
+    height: 40px;
+    font-weight: bold; 
+    background: #000D13;
+    font-size: 20px;
+    color:white;
+    cursor: pointer;
+    
+}
+
+.sec2{
+    width: 80%;
+    height: 900px;
+    background: url(../image/A-04.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.tit p{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-family: gotham;
+    padding-top: 50px;
+    font-weight: bold;
+    color: black;
+    
+    
+}
+
+
+
+.ico1{
+    
+    text-align: center;
+    font-family: gotham;
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+    
+    transition: 0.5s;
+    
+}
+
+
+.ico1 h3{
+    color: black;
+    font-weight: bold
+}
+
+.ico1 span{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    font-size: 60px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    background: #E14745;
+    transition: 0.2s ;
+    cursor: pointer;
+    margin: 50px;
+    
+        
+}
+
+.ico1 span i{
+    line-height: 200px;
+}
+
+
+.ico1 span:hover{
+    
+    transform: scale(1.2);
+    opacity: 0.7;
+        
+}
+
+
+#sec3{
+    width: 80%;
+    height: 600px;
+    background: #E14745;
+    margin: auto;
+    padding: 50px
+        
+}
+
+
+#sec3 div{
+    margin: 10px auto;
+    width: 70%;
+    height: 50px;
+    text-align: center;
+    background: black;
+    line-height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    
+    
+    
+     
+}
+
+
+
+
+#sec4{
+    width: 80%;
+    height: 200px;
+    background: #E9C32A;
+    margin: auto;
+}
+
+
+#sec4 button{
+    
+    width: 70%;
+    height: 50px;
+    
+    background: black;
+    line-height: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    
+    
+    
+}
+
+#sec4{
+    width: 80%;
+    height: 250px;
+    background: #CE2224;
+    margin: auto;
+    
+}
+
+#sec4 h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+    
+}
+
+#sec4 h3{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+
+#sec4 button{
+    width: 200px;
+    display: block;
+    margin: 5 auto;
+    height: 40px;
+    font-weight: bold; 
+    background: #000D13;
+    font-size: 20px;
+    color:white;
+    cursor: pointer;
+    
+}
+
+
+@media (max-width:575px) {
+    .sec2 {
+        height: auto
+    }
+}
+
